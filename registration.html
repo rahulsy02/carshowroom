@@ -1,0 +1,56 @@
+<head>
+	<title>registration form</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
+	
+</head>
+<body>
+	
+<header class="header">
+
+	<div id="menu-btn" class="fa fa-home"></div>
+
+	<a href ="#" class="logo"> <span>Car</span>Showroom</a>
+
+	<nav class="navbar">
+		<a href="home.html">Home</a>
+		<a href="vehicles.html">Vehicles</a>
+		<a href="services.html">Services</a>
+		<a href="contact.html">Contact</a>
+		<a href="about.html">About</a>
+	</nav>
+
+	<div id="login-btn">
+		<button class="btn"><a href="login.html">Login</a></button>
+		<i class="fas fa-user" aria-hidden="true"></i>
+	</div>
+
+</header><center>
+		
+	<div class="registration-form-container" id="reg-01">
+
+		<span class="fas fa-times" id="close-registration-form"></span>
+		
+		<form action="connect.php" method="post">
+			<h3>Registration form</h3>
+			<label for="fullname"><b>Full Name:</b></label>
+			<input type="text" placeholder="Enter Your Name" name="fullname" id="fullname" class="box" required>
+
+			<label for="username"><b>username:</b></label>
+			<input type="text" placeholder="Enter Username" name="username" id="username" class="box" required>
+
+			<label for="email"><b>Email-ID:</b></label>
+    		<input type="text" placeholder="Enter Email" name="email" id="email" class="box" required>
+
+    		<label for="psw"><b>Password:</b></label>
+    		<input type="password" placeholder="Enter Password" name="psw" id="psw" class="box" required>
+
+    		<button type="submit" class="btn">Register Now</button>
+
+			<p>Already have an account? <a href="login.html">Sign in</a>.</p>
+			
+		</form>
+
+	</div></center>
+				
+</body>
